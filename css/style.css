@@ -1,0 +1,42 @@
+
+   
+.card
+{
+   margin: auto;
+  margin-top: 7rem;
+  width: 50%;
+  height:15rem;
+  border: 3px solid rgb(96, 98, 100);
+  padding: 10px;
+ 
+}
+.card:hover{
+  transform: scale(1.08);
+  transition: 0.7s;
+}
+
+.image-card {
+object-fit: contain;
+height: 13rem;
+padding-bottom: 10px;
+}
+
+.nav { 
+  scroll-behavior: smooth; 
+  
+}
+
+.nav-item img {
+  border-radius: 50%;
+  scroll-behavior: inherit
+}
+.parallax-promocion {
+  background-image: url(../imges/chic-mid-century-modern-luxury-aesthetics-living-room-with-gray-velvet-couch-and-golden-lamp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30rem;
+  font-size: 36px;
+  box-shadow: inset  0px -30px 15px white;
+  }
+
